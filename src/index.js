@@ -71,7 +71,7 @@ module.exports = class ThreadFactory extends EventEmitter {
 
       const handleMessage = (resume) => {
         if (resume.status === 'finished') {
-          this.emit('completed', { resume, len: i.length});
+          this.emit('completed', { resume: resume, len: jobList.length});
           // complete the job
           jobList[resume.index].finished = new Date();
           jobList[resume.index].result = resume.result;
