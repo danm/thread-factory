@@ -3,6 +3,9 @@
 # thread-factory
 Framework to manage the worker/manager relationship to maximise threads and performance.
 
+## Install
+`npm i -S thread-factory
+
 ## What is it?
 Thread factory is a module which utilises all cores on your machines rather than just the 1 which by default Node uses. It uses a manager worker relationship where a worker advertises itself as available to work and the manager holds a list of jobs which the workers need to carry out. 
 
@@ -28,7 +31,7 @@ I have a month of log data stored in S3. The data is formatted as ld-json (JSON 
 
 Include the modules we are going to use in our example
 ```js
-const ThreadFactory = require('threadfactory');
+const ThreadFactory = require('thread-factory');
 const AWS = require('aws-sdk');
 const zlib = require('zlib');
 const fs = require('fs');
@@ -104,7 +107,7 @@ factory.start();
 
 ThreadFactory takes 1 argument in form of an object of functions
 ```js
-const ThreadFactory = require('ThreadFactory');
+const ThreadFactory = require('thread-factory');
 const spec = {
   manager, //<Function> The function is run when ThreadFactory starts up, returns a Promise with an array. Required.
   managerFinish, //<Function> The function which runs once all items in the manager array have completed. Returns a Promise. Optional.
