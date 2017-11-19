@@ -1,4 +1,5 @@
-# WORK IN PROGRESS
+## WORK IN PROGRESS
+---
 
 # thread-factory
 Framework to manage the worker/manager relationship to maximise threads and performance.
