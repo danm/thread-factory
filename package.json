@@ -1,0 +1,25 @@
+{
+  "name": "thread-factory",
+  "version": "1.0.0",
+  "description": "Framework to manage the worker/manager relationship to maximise threads and performance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danm/thread-factory.git"
+  },
+  "keywords": [
+    "multi",
+    "threaded",
+    "worker",
+    "manager"
+  ],
+  "author": "Daniel Morrison <daniel.morrison@bbc.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danm/thread-factory/issues"
+  },
+  "homepage": "https://github.com/danm/thread-factory#readme"
+}
