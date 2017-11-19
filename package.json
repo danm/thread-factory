@@ -1,6 +1,6 @@
 {
   "name": "thread-factory",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Framework to manage the worker/manager relationship to maximise threads and performance.",
   "main": "index.js",
   "scripts": {

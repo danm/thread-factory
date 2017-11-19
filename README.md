@@ -4,7 +4,7 @@
 Framework to manage the worker/manager relationship to maximise threads and performance.
 
 ## Install
-`npm i -S thread-factory
+`npm i -S thread-factory`
 
 ## What is it?
 Thread factory is a module which utilises all cores on your machines rather than just the 1 which by default Node uses. It uses a manager worker relationship where a worker advertises itself as available to work and the manager holds a list of jobs which the workers need to carry out. 
